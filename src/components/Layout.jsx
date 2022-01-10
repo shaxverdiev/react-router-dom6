@@ -10,11 +10,24 @@ const Layout = () => {
     <div>
          <header>
         <CustomLink to='/'>Home</CustomLink>
+        <CustomLink to='/posts'>Blog</CustomLink>
         <CustomLink to='/about'>About</CustomLink>
-        <CustomLink to='/blog'>Blog</CustomLink>
       </header>
       <Outlet/>
-      <footer>2022</footer>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <footer> это сделано при помощи Outlet</footer>
     </div>
   );
 };
