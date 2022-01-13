@@ -7,7 +7,7 @@ const EditPost = () => {
 
   return (
     <div>
-      <h1> Edit POSTSSSS {id}</h1>
+      <h1> Edit post {id}</h1>
     </div>
   );
 };
