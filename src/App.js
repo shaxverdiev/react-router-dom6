@@ -22,7 +22,7 @@ const App = () => {
       <Route path="/" element={<Layout/>}> 
       {/* это главная страница  */}
       <Route index element={<Homepage/>}/>
-      <Route path="about" element={<Aboutpage/>}/>
+      <Route path="about/*" element={<Aboutpage/>}/>
       {/* переадресация на адрес /about */}
       {/* что бы в истории не сохранилось посещение этого адреса(потому что если нажать из другого окна на кнопку goBack, то нас перекинет на страницу переадресации ) 
       добавлем replace (если true - то история не созранится, false  - история сохранится*/}

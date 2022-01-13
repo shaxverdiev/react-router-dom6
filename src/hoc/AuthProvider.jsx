@@ -22,7 +22,7 @@ export const AuthProvider = ({children}) => {
   }
 
   const value = {user, signin, signout}  // эти 3 переменные будут доступны в люьом компоненте
-  return <AuthContext.Provider value={value}>
+  return <AuthContext.Provider value={value} >
     {children}
   </AuthContext.Provider>
 }

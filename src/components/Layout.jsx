@@ -27,7 +27,7 @@ const Layout = () => {
       <br></br>
       <br></br>
       <br></br>
-      <footer> это сделано при помощи Outlet</footer>
+      <footer> надпись видна на каждой странице потому что используется Outlet</footer>
     </div>
   );
 };
